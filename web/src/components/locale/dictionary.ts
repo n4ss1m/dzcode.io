@@ -10,12 +10,12 @@ export type DictionaryKeys<G extends DictionaryGroups> = AllDictionaryKeys &
 // @TODO-ZM: use a de-deduplication tool for repeated text
 
 export const dictionary = {
-  "navbar-section-contribute": { en: "Contribute", ar: "اساهم" },
-  "navbar-section-connect": { en: "Connect", ar: "اتواصل" },
-  "navbar-section-learn": { en: "Learn", ar: "اتعلم" },
+  "navbar-section-contribute": { en: "Contribute", ar: "أساهم" },
+  "navbar-section-connect": { en: "Connect", ar: "أتواصل" },
+  "navbar-section-learn": { en: "Learn", ar: "أتعلّم" },
   "navbar-section-projects": { en: "Projects", ar: "مشاريع" },
   "navbar-section-articles": { en: "Articles", ar: "مقالات" },
-  "navbar-section-faq": { en: "FAQ", ar: "اسئلة / اجوبة" },
+  "navbar-section-faq": { en: "FAQ", ar: "أسئلة / أجوبة" },
 
   "footer-category-title-helpful-links": {
     en: "Helpful Links",
@@ -25,17 +25,13 @@ export const dictionary = {
   "footer-category-link-text-learn": { en: "Learn", ar: "اتعلم" },
   "footer-category-link-text-projects": { en: "Projects", ar: "مشاريع" },
   "footer-category-link-text-articles": { en: "Articles", ar: "مقالات" },
-  "footer-category-link-text-faq": { en: "FAQ", ar: "اسئلة / اجوبة" },
-  "footer-category-title-mobile": { en: "Mobile", ar: "تطبيق جوال" },
-  "footer-category-link-text-android": { en: "Android", ar: "أندرويد" },
-  "footer-category-link-text-ios": { en: "iOS", ar: "ايفون" },
-  "footer-category-link-text-expo": { en: "Expo", ar: "اكسبو" },
+  "footer-category-link-text-faq": { en: "FAQ", ar: "أسئلة / أجوبة" },
   "footer-category-title-social-media": {
     en: "Social Media",
     ar: "وسائل التواصل الاجتماعي",
   },
   "footer-category-link-text-github": { en: "Github", ar: "جيتهاب" },
-  "footer-category-link-text-slack": { en: "Slack", ar: "سلاك" },
+  "footer-category-link-text-discord": { en: "Discord", ar: "ديسكورد" },
   "footer-category-link-text-facebook": { en: "Facebook", ar: "فيسبوك" },
   "footer-category-link-text-instagram": { en: "Instagram", ar: "انستغرام" },
   "footer-category-link-text-youTube": { en: "YouTube", ar: "يوتيوب" },
@@ -43,7 +39,7 @@ export const dictionary = {
   "footer-category-link-text-linkedIn": { en: "LinkedIn", ar: "لينكد إن" },
   "faq-title": {
     en: "Frequently Asked Questions | DzCode i/o",
-    ar: "اللاسئلة الاكثر طرحا | DzCode i / o",
+    ar: "الأسئلة الأكثر طرحًا | DzCode i / o",
   },
   "faq-description": {
     en: "Frequently asked questions about DzCode i/o",
@@ -51,7 +47,7 @@ export const dictionary = {
   },
   "faq-header-title": {
     en: "Frequently Asked Questions",
-    ar: "اللاسئلة الاكثر طرحا",
+    ar: "الأسئلة الأكثر طرحًا",
   },
   "faq-need-help": {
     en: "Still need help? send us an email at ",
@@ -59,7 +55,7 @@ export const dictionary = {
   },
   "faq-topic-1": {
     en: "General",
-    ar: "اسئلة عامة",
+    ar: "أسئلة عامة",
   },
   "faq-topic-1-question-1": {
     en: "What exactly is DzCode i/o ?",
@@ -102,8 +98,8 @@ export const dictionary = {
     ar: "كيف أنضم إلى DzCode i / o؟",
   },
   "faq-topic-2-answer-1": {
-    en: `We're most active in slack, we recommend you [join us there](https://join.slack.com/t/dzcode/shared_invite/zt-ek9kscb7-m8z_~cBjX79l~uchuABPFQ).`,
-    ar: `نحن أكثر نشاطًا في Slack ، نوصيك [بالانضمام إلينا هناك](https://join.slack.com/t/dzcode/shared_invite/zt-ek9kscb7-m8z_~cBjX79l~uchuABPFQ)`,
+    en: `We're most active in Discord, we recommend you [join us there](https://discord.gg/TGbPsSMJC2).`,
+    ar: `نحن أكثر نشاطًا في Discord ، نوصيك بـ [الانضمام إلينا هناك](https://discord.gg/TGbPsSMJC2).`,
   },
   "faq-topic-2-question-2": {
     en: "I want to code, where should I start?",
@@ -187,14 +183,6 @@ Besides the open tasks on [/Contribute](/Contribute) page, you can also contribu
     en: "Make a Contribution",
     ar: "قدم مساهمة",
   },
-  "landing-mobile-title": {
-    en: "Try the mobile app from AppStore or PlayStore",
-    ar: "جرب تطبيق الهاتف المحمول من AppStore أو PlayStore",
-  },
-  "landing-mobile-subtitle": {
-    en: "Meet the DzCode i/o mobile app and stay up-to-date with the state of Algerian open-source software on iOS and Android.",
-    ar: "تعرف على تطبيق DzCode i / o للجوال وابق على اطلاع دائم بأحدث البرامج مفتوحة المصدر الجزائرية على iOS و Android.",
-  },
   "landing-milestones-title": {
     en: "Project roadmap",
     ar: "خارطة طريق المشروع",
@@ -222,6 +210,38 @@ Besides the open tasks on [/Contribute](/Contribute) page, you can also contribu
   "team-card-repositories": {
     en: "Repositories",
     ar: "مستودعات",
+  },
+  "contributor-title-pre": {
+    en: "See the profile page of",
+    ar: "انظر إلى صفحة الملف الشخصي لـ",
+  },
+  "contributor-title-post": {
+    en: " | DzCode i/o",
+    ar: " | DzCode i / o",
+  },
+  "contributor-breadcrumbs-1": {
+    en: "Team",
+    ar: "الفريق",
+  },
+  "contributor-activities": {
+    en: "Total Activities",
+    ar: "إجمالي الأنشطة",
+  },
+  "contributor-from-n-repositories-pre": {
+    en: "From",
+    ar: "من",
+  },
+  "contributor-from-n-repositories-post": {
+    en: "repositories",
+    ar: "مستودعات",
+  },
+  "contributor-contributed-to-projects": {
+    en: "Contributed to projects",
+    ar: "ساهم في المشاريع",
+  },
+  "contributor-needs-help": {
+    en: "Needs help with",
+    ar: "يحتاج مساعدة في",
   },
   "projects-title": {
     en: "Browse a growing list of Algerian open-source projects | DzCode i/o",

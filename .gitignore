@@ -19,6 +19,7 @@ coverage
 api/oracle-cloud/build
 api/fetch_cache
 api/postgres_db
+api/meilisearch_db
 api/nodemon.json
 
 # web
@@ -32,9 +33,6 @@ cloudflare/public/*
 **.lighthouseci
 .wrangler
 **/cloudflare/wrangler.toml
-
-# mobile
-mobile/.expo
 
 # data
 data/nodemon.json
